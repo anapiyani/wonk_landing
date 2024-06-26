@@ -1,0 +1,47 @@
+{
+  "header": {
+    "home": "Home",
+    "blog": "Blog",
+    "blog_post": "Blog Post",
+    "open_demo": "Open Demo",
+    "language": "ENG"
+  },
+  "promo": {
+    "title_gradient": "WONK",
+    "title_top": "Working On New Kazakhstan",
+    "try_demo": "Open Demo"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Improving education with AI",
+    "description": "Wonk revolutionizes the educational experience for both students and teachers. By leveraging artificial intelligence, Wonk provides personalized assistance and a seamless platform for communication, learning, and growth.",
+    "sections": {
+      "title": "Main Features",
+      "ai_chat": "AI-powered Chat",
+      "ai_chat_description": "Personalized Support: Students can ask questions in chat, and our AI, trained on educational content, provides personalized answers in English, Russian, and Kazakh.",
+      "instant_help": "Instant Help",
+      "instant_help_description": "Receive immediate academic support tailored to each student's needs, enhancing learning outside the classroom.",
+      "organization": "Saving and Organization",
+      "organization_description": "Students can save helpful chatbot answers, creating their own study resources for effective review.",
+      "homework_management": "Homework and Grades Management",
+      "submission": "Assignment Submission",
+      "submission_description": "Students submit assignments through the app and easily check their grades.",
+      "feedback": "Teacher Feedback",
+      "feedback_description": "Teachers upload assignments and provide feedback, keeping students informed of their academic progress.",
+      "streamlined_process": "Streamlined Process",
+      "streamlined_process_description": "Simplifies the submission and grading process, helping students stay on top of their performance.",
+      "schedule_resources": "Class Schedules and Study Resources",
+      "personal_schedule": "Personalized Schedule",
+      "personal_schedule_description": "Access to a personalized class schedule and relevant study materials.",
+      "timely_updates": "Timely Updates",
+      "timely_updates_description": "Teachers update schedules and upload materials for upcoming classes, ensuring students have the necessary resources.",
+      "preparedness": "Preparedness",
+      "preparedness_description": "Helps students prepare for classes by providing the right materials and information on time."
+    }
+  },
+  "footer": {
+    "copyright": "© WONK All rights reserved.",
+    "contacts": "Contacts",
+    "contact_details": "For inquiries, please contact us at: wonk.ai@gmail.com"
+  }
+}

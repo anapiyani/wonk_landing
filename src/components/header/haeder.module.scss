@@ -1,0 +1,78 @@
+.header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0 solid rgba(255, 255, 255);
+    border-bottom: 1px solid rgba(242, 242, 245);
+    
+    &__content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            img {
+                width: 158px;
+                height: 48px;
+            }
+        }
+        &__navs {
+            ul {
+                padding: 0;
+                margin: 0;
+                display: flex;
+                li {
+                    padding: 24px 12px;
+                    list-style: none;
+                    border-bottom: 2px solid transparent;
+                    margin-left: 5px;
+                    &:last-child {
+                        margin-left: 0;
+                    }
+                    &:hover {
+                        border-bottom: 2px solid #4845fb;
+                    }
+                    a {
+                        text-decoration: none;
+                        color: rgba(129, 134, 160, 1);
+                        font-weight: 600;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        &__demo_button {
+            margin: 0;
+            width: auto;
+            &__btn {
+                padding: 12px 32px;
+                border-radius: .5rem;
+                border: none;
+                color: white;
+                background-color: #6360FF;
+                cursor: pointer;
+                margin-right: 10px;
+                font-weight: 600;
+                &:hover {
+                    background-color: #4845fb;
+                }
+            }
+            &__lang {
+                padding: 5px 10px;
+                border-radius: .2rem;
+                border: none;
+                color: white;
+                background-color: #6360FF;
+                cursor: pointer;
+                font-weight: 600;
+                font-size: 0.9rem;
+                &:hover {
+                    background-color: #4845fb;
+                }
+            }
+        }
+    }
+}
