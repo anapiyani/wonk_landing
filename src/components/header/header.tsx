@@ -5,8 +5,8 @@ import classes from "./haeder.module.scss";
 const Header = () => {
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lng: any) => {
-    i18n.changeLanguage(lng);
+  const changeLanguage = (event: any) => {
+    i18n.changeLanguage(event.target.value);
   };
 
   return (
@@ -33,14 +33,14 @@ const Header = () => {
             <button className={classes["header__content__demo_button__btn"]}>
               {t("header.open_demo")}
             </button>
-            <button
+            <select
               className={classes["header__content__demo_button__lang"]}
-              onClick={() =>
-                changeLanguage(i18n.language === "en" ? "ru" : "en")
-              }
+              onChange={changeLanguage}
+              value={i18n.language}
             >
-              {t("header.language")}
-            </button>
+              <option value="en">ENG</option>
+              <option value="ru">РУС</option>
+            </select>
           </div>
         </div>
       </div>
