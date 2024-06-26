@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import FeaturesContent from "./content/content.features";
 import dashboardSquare from "@/assets/dashboardSquare.png";

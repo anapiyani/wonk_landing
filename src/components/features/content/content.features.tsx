@@ -1,4 +1,3 @@
-import React from "react";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import classes from "./styles.module.scss";
 
