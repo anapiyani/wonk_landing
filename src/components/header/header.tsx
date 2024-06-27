@@ -30,9 +30,6 @@ const Header = () => {
             </ul>
           </nav>
           <div className={classes["header__content__demo_button"]}>
-            <button className={classes["header__content__demo_button__btn"]}>
-              {t("header.open_demo")}
-            </button>
             <select
               className={classes["header__content__demo_button__lang"]}
               onChange={changeLanguage}
@@ -41,6 +38,9 @@ const Header = () => {
               <option value="en">ENG</option>
               <option value="ru">РУС</option>
             </select>
+            <button className={classes["header__content__demo_button__btn"]}>
+              {t("header.open_demo")}
+            </button>
           </div>
         </div>
       </div>
