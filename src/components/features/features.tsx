@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import FeaturesContent from "./content/content.features";
 import dashboardSquare from "@/assets/dashboardSquare.png";
-import dashboardSquareTool from "@/assets/dashboardSquareTools.png";
+import dashboardSquareTool from "@/assets/dashboardSquareTools.jpeg";
 import dashboardSquarePens from "@/assets/dashboardSquarePens.png";
 import dashboard from "@/assets/dashboardCentered.png";
 import classes from "./features.module.scss";

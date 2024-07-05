@@ -22,7 +22,7 @@ const FeaturesContent = (props: TProps) => {
           </a>
         </div>
         <div className={classes["features__content__image"]}>
-          <img src={props.image} alt="image" />
+          <img style={{ objectFit: "contain" }} src={props.image} alt="image" />
         </div>
       </div>
     </div>
